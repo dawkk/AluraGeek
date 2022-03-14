@@ -36,7 +36,9 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 - Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.
 É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
-**Ferramentas** - É dado um layout através da ferramenta *Figma* para que usemos como base para as cores, tamanhos, estilos. Também contamos com um mural do *trello* listando as atividades que deverão ser implementadas naquela semana, copiamos este mural e controlamos nosso progresso em cada tarefa por meio deste, movendo os cards que estão em desenvolvimento, desenvolvidos ou pausados devido a blockers. 
+**Ferramentas** - É dado um layout através da ferramenta *Figma* para que usemos como base para as cores, tamanhos, estilos. Também contamos com um mural do *trello* listando as atividades que deverão ser implementadas naquela semana, copiamos este mural e controlamos nosso progresso em cada tarefa por meio deste, movendo os cards que estão em desenvolvimento, desenvolvidos ou pausados devido a blockers.
+
+(figma-link)[https://www.figma.com/file/itJpWbvHxSUcUeMPy1lmof/AluraGeek?node-id=0%3A1]
 
 **Desenvolvimento** - Não é informado em si como fazer cada etapa, contamos com nosso conhecimento e uma lista de apoio com cursos recomendados da Alura que são relacionados aos tópicos. Comunidade: contamos também com um discord da Alura aonde podemos tirar as duvidas entre todos os que estão no desafio e também ver os projetos de outros participantes.
 
