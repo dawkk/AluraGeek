@@ -1,0 +1,25 @@
+.banner__title {
+  color: #fdfdfd;
+  position: absolute;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+
+@media screen and (min-width: 0) {
+  
+}
+
+@media screen and (min-width: 300px) {
+  .banner__title-main {
+    font-size: 1.3rem;
+    top: 17.5%;
+    text-align: center;
+   }
+   
+   .banner__title-subtitle {
+     font-weight: normal;
+     top: 24%;
+   }
+
+
+}

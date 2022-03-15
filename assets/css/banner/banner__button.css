@@ -1,0 +1,27 @@
+.banner__button {
+  background-color:#2A7AE4;
+  color: #FFFFFFFF;
+  border: none;
+  position: absolute;
+  top:27.5%;
+  width: 7.5rem;
+  height: 2.8rem;
+  font-size: 0.8rem;
+  font: bold;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+@media screen and (min-width: 350) {
+  .banner__button {
+    color:#2A7AE4;
+    border:thin solid #2A7AE4;
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    font: bold;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
