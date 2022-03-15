@@ -1,0 +1,26 @@
+.login__button {
+  color:#2A7AE4;
+  background-color: #FFFFFF;
+  border:thin solid #2A7AE4;
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  font: bold;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+@media screen and (min-width: 350) {
+  .login__button {
+    color:#2A7AE4;
+    background-color: #FFFFFF;
+    border:thin solid #2A7AE4;
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    font: bold;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}

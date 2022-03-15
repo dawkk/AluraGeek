@@ -6,23 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AluraGeek</title>
 
-  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+ 
+  <link rel="stylesheet" href="./assets/css/header/menu.css">
+  <link rel="stylesheet" href="./assets/css/header/login__button.css">
+  <link rel="stylesheet" href="./assets/css/header/search__icon.css">
+  <link rel="stylesheet" href="./assets/css/header/logo.css">
+  
 
 </head>
-<body>
+<body class="structureGrid">
+ 
   <header>
     <nav>
+      <div class="menu">
       <img class="logo" src="./assets/img/Logo.png" alt="Logotipo AluraGeek"/>
-      <button>Login</button>
-      <i class="fa-solid fa-magnifying-glass"></i>
-     
-      <div class="nav__mobile__searchSpace">
-        <i class="fas fa-search fa-2x nav__mobile-search" btn-mobile-search></i>
-        <i class="fas fa-times fa-2x nav__mobile-closeSearchIcon" btn-mobile-close-search>
-        </i>
-      
+      <button class="login__button">Login
+      </button>
+      <img class="search" src="./assets/icons/search.svg" alt="Botão de pesquisa icone de lupa"/>
+      </div>
     </nav>
-
   </header>
   
 </body>

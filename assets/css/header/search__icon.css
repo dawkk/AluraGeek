@@ -1,0 +1,15 @@
+.search__icon {
+  color: black;
+  width: 1.2rem;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 350) {
+  .search__icon {
+    color: black;
+    width: 1.2rem;
+    border: none;
+    background-color: #FFFFFF;
+  }
+}
