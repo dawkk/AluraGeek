@@ -1,4 +1,24 @@
-.logo {
-  width: 110px;
+
+.logo__container {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
 }
 
+.logo__image {
+  width: 1.5rem;
+  padding-right: 0.4rem;
+}
+
+.logo__text{
+  list-style: none;
+  font-weight: bold;
+}
+
+.logo__title-black {
+  color:#464646;
+}
+
+.logo__text-blue {
+  color: #2A7AE4;
+}
