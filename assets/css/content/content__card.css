@@ -1,0 +1,47 @@
+.content__card {
+  display: grid;
+  grid-template-areas: 
+  "card-image"
+  "card-body";
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  width: calc(50% - 1rem);
+}
+
+.content__card:nth-child(odd) {
+  padding-right:0.7rem;
+}
+
+.content__card:nth-child(even) {
+  padding-left:0.7rem;
+  padding-right: 0.4rem;
+}
+
+.content__image {
+  width: 9.5rem;
+  height: 10rem;
+  grid-area: card-image;
+}
+
+.content__details {
+  text-decoration: none;
+  list-style: none;
+  grid-area: card-body;
+}
+
+.content__title {
+  font-size: 16px;
+}
+
+.content__price{
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.content__button {
+  background-color: #FFFFFFFF;
+  border: none;
+  color:#2A7AE4;
+  font-weight: bold;
+  font-size: 16px;
+}

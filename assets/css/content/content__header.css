@@ -1,0 +1,14 @@
+.content__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.content__header__button {
+  text-decoration: none;
+  background-color: #FFFFFFFF;
+  color:#2A7AE4;
+  border: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+}

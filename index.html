@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
 
+  <script src="https://kit.fontawesome.com/f7f0baf5d6.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="./assets/css/style.css">
  
   <link rel="stylesheet" href="./assets/css/header/menu.css">
@@ -20,11 +22,16 @@
   <link rel="stylesheet" href="./assets/css/banner/banner__image.css">
   <link rel="stylesheet" href="./assets/css/banner/banner__title.css">
   <link rel="stylesheet" href="./assets/css/banner/banner__button.css">
+
+  <link rel="stylesheet" href="./assets/css/content/content.css">
+  <link rel="stylesheet" href="./assets/css/content/content__header.css">
+  <link rel="stylesheet" href="./assets/css/content/content__card.css">
   
 
 </head>
 <body class="structureGrid">
   <header>
+    <!-- MENU HEADER -->
     <nav>
       <div class="menu">
         <div class="logo__container">
@@ -32,13 +39,14 @@
             <li class="logo__text logo__text-blue">Alura</li>
             <li class="logo__text logo__text-black">Geek</li>
         </div>
-        <button class="login__button">Login
-        </button>
-        <img class="search" src="./assets/icons/search.svg" alt="Botão de pesquisa icone de lupa"/>
+        <button class="login__button">Login</button>
+        <i class="fa-solid fa-magnifying-glass search"></i>
       </div>
     </nav>
   </header>
   <main class="container">
+
+    <!-- BANNER SECTION -->
     <section>
         <div class="banner__image">
           <div class="banner__padding">
@@ -48,8 +56,53 @@
           </div>
       </div>
     </section>
+    <!-- CONTENT SECTION -->
+    <section class="content">
+      <!-- STAR WARS CONTENT -->
+      <div class="content__header">
+        <h3>Star Wars</h3>
+        <button class="content__header__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
 
+      <div class="content__body">
+
+        <div class="content__card">
+          <img class="content__image" src="./assets/img/starWars/stormtrooperMug.png" alt="Produto caneca de stormtrooper">
+          <ul class="content__details">
+            <li class="content__title">Caneca Stormtrooper</li>
+            <li class="content__price">R$ 60,00</li>
+            <li><button class="content__button">Ver Produto</button></li>
+          </ul>
+        </div>
+
+        <div class="content__card">
+          <img class="content__image" src="./assets/img/starWars/vaderTiefighterLego.png" alt="Produto caneca de stormtrooper">
+          <ul class="content__details">
+            <li class="content__title">Lego Darth Vader e Tie Fighter</li>
+            <li class="content__price">R$ 60,00</li>
+            <li><button class="content__button">Ver Produto</button></li>
+          </ul>
+
+          <div class="content__card">
+            <img class="content__image" src="./assets/img/starWars/yodaToy.png" alt="Produto caneca de stormtrooper">
+            <ul class="content__details">
+              <li class="content__title">Action Figure Yoda</li>
+              <li class="content__price">R$ 60,00</li>
+              <li><button class="content__button">Ver Produto</button></li>
+            </ul>
+
+            <div class="content__card">
+              <img class="content__image" src="./assets/img/starWars/captainTrooper.png" alt="">
+              <ul class="content__details">
+                <li class="content__title">Capitão Stormtrooper</li>
+                <li class="content__price">R$ 60,00</li>
+                <li><button class="content__button">Ver Produto</button></li>
+              </ul>
+
+        </div>
+
+      </div>
+    </section>
   </main>
-  
 </body>
 </html>

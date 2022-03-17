@@ -59,3 +59,7 @@ Semana 1
 - [ ] Adicionar Fale Conosco - Rodapé
 - [ ] Adicionar Desenvolvedor - Rodapé
 
+
+Pontos a revisitar/Corrigir:
+- [ ] Linear-Gradient Banner imagem
+
