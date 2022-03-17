@@ -1,32 +1,22 @@
-.content__card {
+.content__body {
   display: grid;
-  grid-template-areas: 
-  "card-image"
-  "card-body";
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
+  grid-template-columns:1fr 1fr;
+  gap: 1rem;
   width: calc(50% - 1rem);
 }
 
-.content__card:nth-child(odd) {
-  padding-right:0.7rem;
-}
-
-.content__card:nth-child(even) {
-  padding-left:0.7rem;
-  padding-right: 0.4rem;
-}
+.content__card {
+  max-height: 18rem;
+} 
 
 .content__image {
   width: 9.5rem;
   height: 10rem;
-  grid-area: card-image;
 }
 
 .content__details {
   text-decoration: none;
   list-style: none;
-  grid-area: card-body;
 }
 
 .content__title {
