@@ -1,0 +1,16 @@
+.footer__nav {
+  display: flex;
+  align-content: space-between;
+}
+
+.footer__nav__list {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.footer__nav__link {
+  text-decoration: none;
+  color:#464646;
+}

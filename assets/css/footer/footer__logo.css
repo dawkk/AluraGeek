@@ -1,0 +1,24 @@
+.footer__logo__container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+.footer__logo__image {
+  width: 3rem;
+  padding-right: 0.5rem;
+}
+
+.footer__logo__text{
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.footer__logo__title-black {
+  color:#464646;
+}
+
+.footer__logo__text-blue {
+  color: #2A7AE4;
+}

@@ -5,11 +5,24 @@
 }
 
 
-@media screen and (min-width: 0) {
+@media screen and (min-width: 320px) {
   
+  .banner__title-main {
+    font-size: 1.2rem;
+    top: 17.5%;
+    text-align: center;
+   }
+   
+   .banner__title-subtitle {
+     font-weight: normal;
+     top: 22%;
+
+   }
+
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 390px) {
+  
   .banner__title-main {
     font-size: 1.3rem;
     top: 17.5%;
