@@ -3,12 +3,12 @@
   width: 100%;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (min-width:280px) and (max-width:349px) {
   .banner__image {
-      height: calc(27vh);
+      height: calc(22vh);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width:350px) and (max-width: 768px) {
   .banner__image {
       height: calc(30vh);
   }

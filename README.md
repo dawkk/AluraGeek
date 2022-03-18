@@ -21,6 +21,8 @@ Este projeto foi proposto pela Alura durante outra edição do [Desafio Alura Fr
 
 ## Tecnologias Utilizadas(WIP):
 
+- CSS (Grid, Flexbox, Media Queries, Mobile First)
+
 ## Sobre o Desafio Alura Front-End:
 
 É dada uma situação problema, prazos e ferramentas para que solucionemos o problema.
@@ -47,19 +49,25 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 ## Próximas implementações:
 
 Semana 1
-- [ ] Elementos Principais do Site HTML
-- [ ] Adicionar Logo da Empresa
+- [x] Elementos Principais do Site HTML
+- [x] Adicionar Logo da Empresa
 - [ ] Criar Barra de Pesquisa
-- [ ] Adicionar Botão Iniciar Sessão
-- [ ] Adicionar Banner
-- [ ] Criar Galeria de produtos - Seção Star Wars
-- [ ] Criar Galeria de produtos - Seção Consoles
-- [ ] Criar Galeria de produtos - Seção Diversos
-- [ ] Adicionar Logo - Rodapé
-- [ ] Adicionar Fale Conosco - Rodapé
-- [ ] Adicionar Desenvolvedor - Rodapé
+- [x] Adicionar Botão Iniciar Sessão
+- [x] Adicionar Banner
+- [x] Criar Galeria de produtos - Seção Star Wars
+- [x] Criar Galeria de produtos - Seção Consoles
+- [x] Criar Galeria de produtos - Seção Diversos
+- [x] Adicionar Logo - Rodapé
+- [x] Adicionar Fale Conosco - Rodapé
+- [x] Adicionar Desenvolvedor - Rodapé
 
 
 Pontos a revisitar/Corrigir:
 - [ ] Linear-Gradient Banner imagem
 
+Pontos a adiantar:
+- [ ] Pagina de login/iniciar sessão
+- [ ] Pagina de detalhes do produto ao clicar ver produto e sessão de produtos similares
+- [ ] Pagina todos os produtos
+- [ ] Pagina administrador com opção de adicionar produtos novos ao catalogo
+- [ ] Opção para administrador remover ou alterar itens já adicionados (todos os produtos)

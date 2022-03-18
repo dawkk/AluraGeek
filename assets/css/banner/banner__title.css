@@ -4,35 +4,28 @@
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
 
-
-@media screen and (min-width: 320px) {
-  
+@media screen and (min-width:280px) and (max-width:349px) {
   .banner__title-main {
     font-size: 1.2rem;
-    top: 17.5%;
-    text-align: center;
+    top: 16%;
    }
    
    .banner__title-subtitle {
      font-weight: normal;
-     top: 22%;
+     top: 21%;
+     font-size: 0.8rem;
 
    }
-
 }
 
-@media screen and (min-width: 390px) {
-  
+@media screen and (min-width:350px) and (max-width: 768px) {
   .banner__title-main {
     font-size: 1.3rem;
     top: 17.5%;
-    text-align: center;
    }
    
    .banner__title-subtitle {
      font-weight: normal;
      top: 24%;
    }
-
-
 }
