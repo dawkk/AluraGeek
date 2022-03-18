@@ -38,5 +38,12 @@
 }
 
 @media screen and (min-width: 320) {
+
+  .content__image {
+    width: 40vw;
+    max-width: 156px;
+    height: 16vh;
+  }
+  
  
 }
