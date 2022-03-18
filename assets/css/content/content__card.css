@@ -1,7 +1,7 @@
 .content__body {
   display: grid;
   grid-template-columns:1fr 1fr;
-  gap: 1.5rem;
+  gap: 2rem;
   width: calc(50% - 1rem);
 }
 
@@ -10,7 +10,7 @@
 } 
 
 .content__image {
-  width: 9.5rem;
+  width: 10rem;
   height: 10rem;
 }
 

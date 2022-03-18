@@ -49,17 +49,22 @@
   color:#464646;
 }
 
+
+
 .footer__contact__title {
   padding: 1rem 0;
 }
 
-.form__name__background {
+.form__name__container {
   background-color: #FFFFFFFF;
   display: flex;
   flex-direction: column;
   border-radius: 4px;
   border-bottom: #464646;
-  box-sizing: border-box;
+}
+
+.form__message__container {
+  padding: 1rem 0;
 }
 
 .form__name__label {
@@ -72,8 +77,16 @@
 .footer__form__name {
   border: none;
   box-sizing: border-box;
-  padding: 0.5rem;
-  height: 30px;
+  height: 2rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.footer__form__message {
+  border: none;
+  padding:0.5rem;
+  height: 4rem;
+  width: 90vw;
 }
 
 .form__line{
@@ -86,11 +99,11 @@
 
 
 .footer__button {
-  color:#2A7AE4;
-  border:1.5px solid #2A7AE4;
-  background-color: #FFFFFFFF;
-  width: 7rem;
-  height: 2.2rem;
+  background-color:#2A7AE4;
+  color: #FFFFFFFF;
+  border: none;
+  width: 10rem;
+  height: 2.8rem;
   font-size: 0.8rem;
   font: bold;
   font-weight: 600;
