@@ -62,11 +62,11 @@
 @media screen and (min-width:768px) and (max-width:1439px) {
 
   .form__name {
-    max-width: 60vw;
+    max-width: 55vw;
   }
   
   .form__message {
-    width: 60vw;
+    width: 55vw;
   }
 
   .form__contact__title {

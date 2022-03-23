@@ -24,11 +24,16 @@
 
   .footer__nav__list {
     text-align:left;
+    padding: 1rem 0;
   }
 
   .footer__nav__container {
     display:flex;
     flex-direction: column;
+  }
+
+  .footer__contact {
+    padding-bottom: 15%;
   }
 
 }

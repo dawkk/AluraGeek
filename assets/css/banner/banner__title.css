@@ -1,31 +1,32 @@
 .banner__title {
   color: #fdfdfd;
-  position: absolute;
+  /* position: absolute; */
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
 
-@media screen and (min-width:280px) and (max-width:349px) {
+@media screen and (min-width:280px) and (max-width:767px) {
   .banner__title-main {
     font-size: 1.2rem;
-    top: 16%;
+    /* top: 16%; */
    }
    
    .banner__title-subtitle {
      font-weight: normal;
-     top: 21%;
+     /* top: 21%; */
      font-size: 0.8rem;
 
    }
 }
 
-@media screen and (min-width:350px) and (max-width: 768px) {
+@media screen and (min-width:768px) and (max-width: 1439px) {
   .banner__title-main {
     font-size: 1.3rem;
-    top: 17.5%;
+    margin-top: 20%;
+    /* top: 17.5%; */
    }
    
    .banner__title-subtitle {
      font-weight: normal;
-     top: 24%;
+     /* top: 24%; */
    }
 }
