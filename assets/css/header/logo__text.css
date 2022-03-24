@@ -1,0 +1,16 @@
+.logo__text{
+  list-style: none;
+  font-weight: bold;
+}
+
+.logo__text--font-big {
+  font-size: 1.5rem;
+}
+
+.logo__text--color-black {
+  color:#464646;
+}
+
+.logo__text--color-blue {
+  color: #2A7AE4;
+}

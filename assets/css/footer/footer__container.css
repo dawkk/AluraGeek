@@ -7,14 +7,6 @@
   background: #EAF2FD;
 }
 
-.author {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  text-align: center;
-}
-
 @media screen and (min-width:280px) and (max-width:767px) {
   
 
@@ -28,7 +20,4 @@
     justify-content: space-between;
     padding: 2rem;
   }
-
-  
-
 }

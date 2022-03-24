@@ -1,8 +1,4 @@
 .content {
- padding: 1rem;
-}
-
-.content__body {
-  display: flex;
-  flex-wrap: wrap;
+  height: auto;
+  padding: 1rem;
 }

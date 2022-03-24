@@ -1,0 +1,13 @@
+.nav__item {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .nav__item {
+    text-align:left;
+    padding: 1rem 0;
+  }
+}

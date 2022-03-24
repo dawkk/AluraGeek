@@ -1,39 +1,8 @@
-.content__body {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1rem;
-}
-
-.content__image {
-  width: 100%;
-  height: 60%;
-}
-
 .content__card {
   width: 40vw;
 } 
 
-.content__details {
-  text-decoration: none;
-  list-style: none;
-}
 
-.content__title {
-  font-size: 16px;
-}
-
-.content__price{
-  font-weight: bold;
-  padding: 0.5rem 0;
-}
-
-.content__button {
-  background-color: #FFFFFFFF;
-  border: none;
-  color:#2A7AE4;
-  font-weight: bold;
-  font-size: 16px;
-}
 
 @media screen and (min-width:280px) and (max-width:767px) {
   

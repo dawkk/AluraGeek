@@ -1,0 +1,8 @@
+.logo__image {
+  width: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.logo__image--size-big {
+  width: 3rem;
+}

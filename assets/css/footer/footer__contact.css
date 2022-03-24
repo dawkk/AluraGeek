@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) and (max-width:1439px) {
-  .footer__nav {
-    display:flex;
-    flex-direction: column;
+  .footer__contact {
+    padding-bottom: 15%;
   }
+
 }

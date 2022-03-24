@@ -1,0 +1,7 @@
+.name__container {
+  background-color: #FFFFFFFF;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border-bottom: #464646;
+}

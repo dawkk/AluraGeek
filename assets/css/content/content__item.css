@@ -1,0 +1,13 @@
+.content__item {
+  font-size: 16px;
+}
+
+.content__item--additional-padding {
+  padding: 0 0 1rem 0;
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .content__item {
+    font-size: 16px;
+  }
+}

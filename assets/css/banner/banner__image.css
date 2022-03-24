@@ -1,16 +1,14 @@
 .banner__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background: url('/assets/img/banner.jpg') no-repeat center / cover;
   width: 100%;
 }
 
-.banner__container {
-  display: flex;
-  flex-direction: column;
-}
-
 @media screen and (min-width:280px) and (max-width:767px) {
   .banner__image {
-      height: calc(22vh);
+      height: 192px;
   }
 }
 

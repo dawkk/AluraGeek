@@ -1,0 +1,11 @@
+.contact__button {
+  background-color:#2A7AE4;
+  color: #FFFFFFFF;
+  border: none;
+  width: 10rem;
+  height: 2.8rem;
+  font-size: 0.8rem;
+  font: bold;
+  font-weight: 600;
+  font-size: 14px;
+}

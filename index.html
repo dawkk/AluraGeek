@@ -13,9 +13,8 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
  
-  <link rel="stylesheet" href="./assets/css/header/menu.css">
+  <link rel="stylesheet" href="./assets/css/header/header__container.css">
   <link rel="stylesheet" href="./assets/css/header/login__button.css">
-  <link rel="stylesheet" href="./assets/css/header/search__icon.css">
   <link rel="stylesheet" href="./assets/css/header/logo.css">
 
   <link rel="stylesheet" href="./assets/css/banner/banner__padding.css">
@@ -36,21 +35,21 @@
 <body>
   <header>
     <!-- MENU HEADER -->
-    <nav>
-      <div class="menu">
+      <div class="header__container">
         <div class="logo__container">
             <img class="logo__image" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
-            <li class="logo__text logo__text-blue">Alura</li>
-            <li class="logo__text logo__text-black">Geek</li>
+            <li class="logo__text logo__text--color-blue">Alura</li>
+            <li class="logo__text logo__text--color-black">Geek</li>
         </div>
         <button class="login__button">Login</button>
         <i class="fa-solid fa-magnifying-glass search"></i>
       </div>
-    </nav>
   </header>
+
   <main class="container">
 
     <!-- BANNER SECTION -->
+
     <section>
           <div class="banner__image">
             <div class="banner__padding">
@@ -69,40 +68,40 @@
 
       <div class="content__header">
         <h3>Star Wars</h3>
-        <button class="content__header__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
+        <button class="content__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
       </div>
 
       <div class="content__body">
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/stormtrooperMug.png" alt="Caneca para café de stormtrooper">
-          <ul class="content__details">
-            <li class="content__title">Caneca Stormtrooper</li>
+          <ul class="content__list">
+            <li class="content__item content__item--additional-padding">Caneca Stormtrooper</li>
             <li class="content__price">R$ 60,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/vaderTiefighterLego.png" alt="Lego Star Wars Cabeça Darth Vader e Cabeça Tie Fighter">
-          <ul class="content__details">
-            <li class="content__title">Lego Darth Vader & Tie Fighter</li>
+          <ul class="content__list">
+            <li class="content__item">Lego Darth Vader & Tie Fighter</li>
             <li class="content__price">R$ 150,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/yodaToy.png" alt="Estatua de plastico Yoda">
-          <ul class="content__details">
-            <li class="content__title">Action Figure Yoda</li>
+          <ul class="content__list">
+            <li class="content__item content__item--additional-padding">Action Figure Yoda</li>
             <li class="content__price">R$ 110,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/captainTrooper.png" alt="Poster Capitão Trooper">
-          <ul class="content__details">
-            <li class="content__title">Poster Capitão Stormtrooper</li>
+          <ul class="content__list">
+            <li class="content__item">Poster Capitão Stormtrooper</li>
             <li class="content__price">R$ 65,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
       </div>
@@ -111,40 +110,40 @@
 
        <div class="content__header">
         <h3>Consoles</h3>
-        <button class="content__header__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
+        <button class="content__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
       </div>
 
       <div class="content__body">
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/controle.png" alt="Controle gamepad xbox one">
-          <ul class="content__details">
-            <li class="content__title">Controle Xbox</li>
+          <ul class="content__list">
+            <li class="content__title content__item--additional-padding">Controle Xbox</li>
             <li class="content__price">R$ 60,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/consoleControle.png" alt="Console Playstation 5 e controle cor azul emcima de uma mesa">
-          <ul class="content__details">
+          <ul class="content__list">
             <li class="content__title">Playstation 5 edição limitada</li>
             <li class="content__price">R$ 4000,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/superNintendo.png" alt="Console Super Nintendo">
-          <ul class="content__details">
+          <ul class="content__list">
             <li class="content__title">Console Super Nintendo</li>
             <li class="content__price">R$ 500,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/controleNintendoSwitch.png" alt="Kit Dois controles Joystick Nintendo Switch">
-          <ul class="content__details">
+          <ul class="content__list">
             <li class="content__title">Controles Joystick Nintendo Switch</li>
             <li class="content__price">R$ 365,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
       </div>
@@ -153,78 +152,83 @@
 
       <div class="content__header">
         <h3>Diversos</h3>
-        <button class="content__header__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
+        <button class="content__button">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
       </div>
 
       <div class="content__body">
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/camisaAtari.png" alt="Camisa de logotipo videogame Atari">
-          <ul class="content__details">
-            <li class="content__title">Camisa Atari</li>
+          <ul class="content__list">
+            <li class="content__title content__item--additional-padding">Camisa Atari</li>
             <li class="content__price">R$ 60,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/camisaSNES.png" alt="Camisa de controle SNES">
-          <ul class="content__details">
-            <li class="content__title">Camisa SNES</li>
+          <ul class="content__list">
+            <li class="content__title content__item--additional-padding">Camisa SNES</li>
             <li class="content__price">R$ 65,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/actionFigureSonic.png" alt="Estatua action figure de SONIC">
-          <ul class="content__details">
-            <li class="content__title">Action Figure SONIC</li>
+          <ul class="content__list">
+            <li class="content__title content__item--additional-padding">Action Figure SONIC</li>
             <li class="content__price">R$ 100,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/radioDespertadorRetro.png" alt="Radio relógio estilo retro cor rosa">
-          <ul class="content__details">
+          <ul class="content__list">
             <li class="content__title">Radio Relógio rosa estilo retro</li>
             <li class="content__price">R$ 160,00</li>
-            <li><button class="content__button">Ver Produto</button></li>
+            <li><a href="#" class="content__button">Ver Produto</a></li>
           </ul>
         </div>
       </div>
     </section>
+
+    <!-- FOOTER -->
+
     <footer>
       <div class="footer__container">
-        <div class="footer__nav__container">
-          <div class="footer__logo__container">
-            <img class="footer__logo__image" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
-            <li class="footer__logo__text footer__logo__text-blue">Alura</li>
-            <li class="footer__logo__text footer__logo__text-black">Geek</li>
+        <div class="footer__nav">
+          <div class="logo__container">
+            <img class="logo__image logo__image--size-big" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
+            <li class="logo__text logo__text--color-blue logo__text--font-big">Alura</li>
+            <li class="logo__text logo__text--color-black logo__text--font-big">Geek</li>
           </div>
-          <div class="footer__nav">
+          <div class="nav__container">
             <ul>
-              <li class="footer__nav__list"><a class="footer__nav__link" href="#">Quem Somos Nós</a></li>
-              <li class="footer__nav__list"><a class="footer__nav__link" href="#">Política de Privacidade</a></li>
-              <li class="footer__nav__list"><a class="footer__nav__link" href="#">Programa Fidelidade</a></li>
-              <li class="footer__nav__list"><a class="footer__nav__link" href="#">Nossas Lojas</a></li>
-              <li class="footer__nav__list"><a class="footer__nav__link" href="#">Quero Ser Franqueado</a></li>
-              <li class="footer__nav__list"><a class="footer__nav__link" href="#">Anuncie Aqui</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Quem Somos Nós</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Política de Privacidade</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Programa Fidelidade</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Nossas Lojas</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Quero Ser Franqueado</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Anuncie Aqui</a></li>
             </ul>
           </div>
         </div>
         <div class="footer__contact">
-          <h4 class="form__contact__title">Fale Conosco</h4>
-          <div class="form__name__container">
-            <label for="contactName" class="form__name__label">Nome</label>
-            <input class="form__name" type="text" name="contact__name" id="contactName">
-            <hr class="form__line">
+          <h4 class="contact__title">Fale Conosco</h4>
+          <div class="name__container">
+            <label for="contactName" class="name__label">Nome</label>
+            <input class="name__form" type="text" name="contact__name" id="contactName">
+            <hr class="contact__line">
           </div>
-          <div class="form__message__container"> 
-          <input class="form__message" type="text" name="contact__message" placeholder="Escreva sua mensagem">
-          <hr class="form__line">
+          <div class="message__container"> 
+          <input class="message__form" type="text" name="contact__message" placeholder="Escreva sua mensagem">
+          <hr class="contact__line">
           </div>
-          <button class="form__button">Enviar mensagem</button>
-
+          <button class="contact__button">Enviar mensagem</button>
         </div>
       </div>
+
+      <!-- AUTHOR -->
+      
       <div class="author">Desenvolvido por Gabriel Marconato Venturini 2022
       </div>
     </footer>

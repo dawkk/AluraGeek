@@ -1,25 +1,52 @@
+@import url(header/header__container.css);
+@import url(header/logo__container.css);
+@import url(header/logo__image.css);
+@import url(header/logo__text.css);
+@import url(header/login__button.css);
 
-/* .structureGrid {
-  background:#FFFFFF;
-    display: grid;  
-    font-family: Arial, Helvetica, sans-serif;
-    grid-template-areas: 
-        "header"
-        "content"
-        "footer";
-    grid-template-columns: auto;
-    grid-template-rows: auto; 
-} */
+@import url(banner/banner__image.css);
+@import url(banner/banner__padding.css);
+@import url(banner/banner__title.css);
+@import url(banner/banner__button.css);
 
-/* .container {
-  grid-area: content;
-} */
+@import url(content/content.css);
+@import url(content/content__header.css);
+@import url(content/content__body.css);
+@import url(content/content__card.css);
+@import url(content/content__image.css);
+@import url(content/content__list.css);
+@import url(content/content__item.css);
+@import url(content/content__price.css);
+@import url(content/content__button.css);
 
-.content {
-  height: auto;
-}
+@import url(footer/footer__container.css);
+@import url(footer/footer__contact.css);
+@import url(footer/footer__nav.css);
+@import url(footer/nav__container.css);
+@import url(footer/nav__item.css);
+@import url(footer/nav__link.css);
+@import url(footer/contact__button.css); 
+@import url(footer/contact__title.css); 
+@import url(footer/contact__line.css); 
+@import url(footer/name__container.css);
+@import url(footer/name__form.css);
+@import url(footer/name__label.css);
+@import url(footer/message__container.css);
+@import url(footer/message__form.css);
+@import url(footer/author.css);
 
-@media screen and (min-width:320px) {
 
+
+
+
+@media screen and (min-width:280px) and (max-width:767px) {
   
+
 }
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+
+}
+
+
