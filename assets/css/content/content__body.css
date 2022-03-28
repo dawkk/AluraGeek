@@ -8,6 +8,7 @@
   
   .content__body {
     flex-wrap: wrap;
+    padding: 0 1rem;
   }
 
 }

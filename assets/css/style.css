@@ -1,3 +1,5 @@
+@import url(base.css);
+
 @import url(header/header__container.css);
 @import url(header/logo__container.css);
 @import url(header/logo__image.css);

@@ -1,13 +1,33 @@
 .content__item {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .content__item--additional-padding {
   padding: 0 0 1rem 0;
 }
 
-@media screen and (min-width:768px) and (max-width:1439px) {
+
+
+@media screen and (min-width:280px) and (max-width:349px) {
+  
   .content__item {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
+
+  .content__item--additional-padding {
+    padding: 0 0 1rem 0;
+  }
+
+}
+
+@media screen and (min-width:350px) and (max-width:767px) {
+  
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+ 
+
 }
