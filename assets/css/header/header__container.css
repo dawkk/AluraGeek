@@ -1,8 +1,24 @@
 .header__container {
-  align-items: center;
+  /* align-items: center;
   display: flex;
   grid-area: header;
   padding: 1rem 1rem;
   justify-content: space-between;
-  align-content: center;
+  align-content: center; */
+
+  display: grid;
+  grid-template-columns: [start] 1fr [gap1] 0.5fr [middle] 1fr [gap2] 0.5fr [end] 1fr;
+  gap: 0.5rem;
+  padding: 1rem;
+
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+
 }

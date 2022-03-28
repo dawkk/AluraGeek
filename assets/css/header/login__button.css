@@ -2,24 +2,39 @@
   color:#2A7AE4;
   border:1.5px solid #2A7AE4;
   background-color: #FFFFFFFF;
-  width: 7rem;
-  height: 2.2rem;
+  width: 9rem;
+  height: 3rem;
   font-size: 0.8rem;
   font: bold;
   font-weight: 600;
   font-size: 14px;
+  grid-area: middle;
 }
 
-
-@media screen and (min-width: 350) {
+@media screen and (min-width:280px) and (max-width:349px) {
+ 
   .login__button {
-    color:#2A7AE4;
-    border:thin solid #2A7AE4;
-    width: 8rem;
-    height: 2rem;
-    font-size: 0.8rem;
-    font: bold;
-    font-weight: 600;
-    font-size: 14px;
+    max-width: 5rem;
+    min-width: 2rem;
+    font-size: 10px;
+    height: 2.3rem;
   }
+}
+
+@media screen and (min-width:350px) and (max-width:767px) {
+ 
+  .login__button {
+    max-width: 9rem;
+    min-width: 3rem;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+  .login__button {
+    grid-area: end;
+    width: 10rem;
+    height: 3rem;
+  }
+
 }

@@ -14,3 +14,20 @@
 .logo__text--color-blue {
   color: #2A7AE4;
 }
+
+@media screen and (min-width:280px) and (max-width:349px) {
+ 
+  .logo__text{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+
+}

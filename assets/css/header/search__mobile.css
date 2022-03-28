@@ -1,18 +1,18 @@
-.content__body {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1rem;
+.search__mobile {
+  display: block;
+  grid-area: end;
+  padding: 0.7rem 0 1rem 30%;
 }
+
 
 @media screen and (min-width:280px) and (max-width:767px) {
   
-  .content__body {
-    flex-wrap: wrap;
-  }
 
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
-
+  .search__mobile {
+    display: none;
+  }
 
 }

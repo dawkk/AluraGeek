@@ -18,6 +18,7 @@
 @import url(content/content__item.css);
 @import url(content/content__price.css);
 @import url(content/content__button.css);
+@import url(content/content__title.css);
 
 @import url(footer/footer__container.css);
 @import url(footer/footer__contact.css);
@@ -35,8 +36,10 @@
 @import url(footer/message__form.css);
 @import url(footer/author.css);
 
-
-
+@import url(header/search__background.css);
+@import url(header/search__bar.css);
+@import url(header/search__icon.css);
+@import url(header/search__mobile.css);
 
 
 @media screen and (min-width:280px) and (max-width:767px) {
