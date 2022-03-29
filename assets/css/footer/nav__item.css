@@ -11,3 +11,16 @@
     padding: 1rem 0;
   }
 }
+
+
+@media screen and (min-width:1440px) {
+  .nav__item {
+    text-align:left;
+    padding: 0.8rem 0;
+  }
+
+  .nav__item:nth-child(1st) {
+    padding-top: 0;
+  }
+
+}

@@ -2,5 +2,10 @@
   .footer__contact {
     padding-bottom: 15%;
   }
+}
 
+@media screen and (min-width:1440px) {
+  .footer__contact {
+    width: 38vw;
+  }
 }

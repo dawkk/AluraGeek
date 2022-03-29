@@ -4,3 +4,12 @@
     flex-direction: column;
   }
 }
+
+@media screen and (min-width:1440px) {
+  .footer__nav {
+    display:flex;
+    flex-direction: row;
+    width: 28vw;
+    justify-content: space-between;
+  }
+}

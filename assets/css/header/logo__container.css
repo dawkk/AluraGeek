@@ -21,5 +21,11 @@
 
   .logo__container {
     padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo__container--padding-footer {
+    padding-top: 1.5rem;
   }
 }

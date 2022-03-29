@@ -1,12 +1,18 @@
 .message__form {
   border: none;
-  padding:0.5rem;
-  height: 4rem;
+  padding: 1rem 0.5rem 3.5rem 0.5rem;
+  box-sizing: border-box;
   width: 90vw;
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
   .message__form {
     width: 55vw;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .message__form {
+    width: 100%;
   }
 }

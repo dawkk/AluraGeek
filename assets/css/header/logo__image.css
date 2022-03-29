@@ -30,6 +30,7 @@
 
   .logo__image--size-big {
     width: 3.5rem;
+    align-self: flex-start;
   }
 
 }
