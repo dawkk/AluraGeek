@@ -1,10 +1,11 @@
 .search__background {
-  background: #F5F5F5;
+  /* background: #F5F5F5; */
+  background-color:lightgray;
   display: none;
   justify-content: center;
   align-items: center;
-  width: 272px;
-  height: 30px;
+  width: 17rem;
+  height: 1.87rem;
   border-radius: 20px;
   padding: 0.7rem;
   grid-area: middle;
@@ -17,15 +18,14 @@
 
 @media screen and (min-width:768px) and (max-width:1439px) {
   .search__background {
-    background: #F5F5F5;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 272px;
-    height: 30px;
-    border-radius: 20px;
-    padding: 0.7rem;
-    grid-area: middle;
   }
+}
 
+@media screen and (min-width:1440px) {
+  .search__background {
+    display: flex;
+    width: 24.5rem;
+    margin-top: 0.3rem;
+  }
 }

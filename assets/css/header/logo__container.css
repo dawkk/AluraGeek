@@ -15,5 +15,11 @@
   .logo__container {
     grid-area: start;
   }
+}
 
+@media screen and (min-width:1440px) {
+
+  .logo__container {
+    padding: 1rem 1rem;
+  }
 }

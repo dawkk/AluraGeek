@@ -13,10 +13,13 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
-
   .banner__image {
     height: 352px;
+  }
 }
 
-
+@media screen and (min-width:1440px) {
+  .banner__image {
+    height: 352px;
+  }
 }

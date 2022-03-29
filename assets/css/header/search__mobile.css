@@ -14,5 +14,10 @@
   .search__mobile {
     display: none;
   }
+}
 
+@media screen and (min-width:1440px) {
+  .search__mobile {
+    display: none;
+  }
 }

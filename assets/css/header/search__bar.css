@@ -1,20 +1,27 @@
 .search__bar {
-  display: none;  
+  display: none;
+  background: #F5F5F5;
+  border: none;
+  width: 80%;
+  height: 100%;
+  padding: 0 0.5rem; 
 }
 
 @media screen and (min-width:280px) and (max-width:767px) {
   
-
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
   .search__bar {
     display: block;
-    background: #F5F5F5;
-    border: none;
-    width: 80%;
-    height: 100%;
-    padding: 0 0.5rem;
   }
+}
 
+@media screen and (min-width:1440px) {
+
+  .search__bar {
+    display: block;
+    padding: 0 1rem;
+    margin-right: 1rem;
+  }
 }

@@ -6,19 +6,19 @@
 
 
 @media screen and (min-width:280px) and (max-width:349px) {
- 
 }
 
 @media screen and (min-width:280px) and (max-width:767px) {
-  
-  
-
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
-
   .content__header {
     padding: 2rem 1rem;
   }
+}
 
+@media screen and (min-width:1440px) {
+  .content__header {
+    padding: 4rem 12%;
+  }
 }

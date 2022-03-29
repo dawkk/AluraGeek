@@ -29,3 +29,17 @@
      padding: 0 0 2rem 0;
    }
 }
+
+@media screen and (min-width:1440px) {
+  .banner__title-main {
+    font-size: 3rem;
+    margin:0.67rem 0;
+   }
+   
+   .banner__title-subtitle {
+     font-weight: normal;
+     font-size: 1.5rem;
+     padding: 0 0 1.5rem 0;
+   }
+
+}

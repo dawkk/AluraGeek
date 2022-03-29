@@ -2,17 +2,24 @@
 
 @media screen and (min-width:280px) and (max-width:349px) {
   .content__title {
-    font-size: 12px;
+    font-size: 0.8rem;
   }
 }
 
 @media screen and (min-width:350px) and (max-width:767px) {
   
-  
-
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
 
+}
 
+@media screen and (min-width:1440px) {
+  .content__title {
+    font-size: 2rem;
+  }
+
+  .content__more {
+    font-size: 1rem;
+  }
 }

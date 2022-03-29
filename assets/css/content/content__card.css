@@ -2,6 +2,11 @@
   width: 40vw;
 } 
 
+.content__card-desktop {
+  display:none;
+  width: 40vw;
+} 
+
 
 @media screen and (min-width:280px) and (max-width:349px) {
   .content__card {
@@ -11,18 +16,26 @@
 }
 
 @media screen and (min-width:350px) and (max-width:767px) {
-  
   .content__card {
     width: 40vw;
   } 
-  
-
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
-
   .content__card {
     width: 20vw;
   } 
+}
 
+@media screen and (min-width:1440px) {
+  .content__card {
+    width: 12vw;
+    height: 12vh;
+  } 
+
+  .content__card-desktop {
+    display:block;
+    width: 12vw;
+    height: 12vh;
+  } 
 }
