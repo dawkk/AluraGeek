@@ -1,0 +1,10 @@
+.content__add {
+  background-color:#2A7AE4;
+  color: #FFFFFFFF;
+  border: none;
+  width: 12rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  font: bold;
+  font-weight: 600;
+}

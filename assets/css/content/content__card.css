@@ -27,15 +27,28 @@
   } 
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1902px) {
   .content__card {
     width: 11vw;
-    height: 15vh;
+    height: 20vh;
   } 
 
   .content__card-desktop {
     display:block;
     width: 11vw;
-    height: 15vh;
+    height: 20vh;
+  } 
+}
+
+@media screen and (min-width:1903px) {
+  .content__card {
+    width: 11vw;
+    height: 30vh;
+  } 
+
+  .content__card-desktop {
+    display:block;
+    width: 11vw;
+    height: 30vh;
   } 
 }

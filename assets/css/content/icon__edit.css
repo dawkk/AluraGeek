@@ -1,0 +1,7 @@
+.icon__edit {
+  color: white;
+  position: absolute;
+  left: 180px;
+  top:10px;
+  z-index: 100;
+}

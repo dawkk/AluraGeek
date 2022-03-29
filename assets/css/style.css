@@ -22,6 +22,12 @@
 @import url(content/content__button.css);
 @import url(content/content__title.css);
 
+/* content - but on product page */
+@import url(content/content__add.css);
+@import url(content/icon__container.css);
+@import url(content/icon__delete.css);
+@import url(content/icon__edit.css);
+
 @import url(footer/footer__container.css);
 @import url(footer/footer__contact.css);
 @import url(footer/footer__nav.css);
@@ -49,6 +55,8 @@
 @import url(credentials/crendentials__form.css);
 @import url(credentials/credentials__line.css);
 @import url(credentials/credentials__button.css);
+
+
 
 
 @media screen and (min-width:280px) and (max-width:767px) {

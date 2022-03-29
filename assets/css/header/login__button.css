@@ -11,6 +11,10 @@
   grid-area: middle;
 }
 
+.login__button--extra-padding {
+  margin-left: 4.7rem;
+}
+
 @media screen and (min-width:280px) and (max-width:349px) {
  
   .login__button {
@@ -40,7 +44,7 @@
 @media screen and (min-width:1440px) {
   .login__button {
     grid-area: end;
-    width: 11.3rem;
+    width: 12rem;
     height: 3.2rem;
     margin-top: 0.3rem;
   }

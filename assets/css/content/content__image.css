@@ -3,6 +3,12 @@
   height: 60%;
 }
 
+.content__image--contrast {
+  filter:brightness(80%);
+  z-index: 0;
+}
+
+
 @media screen and (min-width:280px) and (max-width:349px) {
   
   .content__image {
