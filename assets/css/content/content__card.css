@@ -30,12 +30,12 @@
 @media screen and (min-width:1440px) {
   .content__card {
     width: 11vw;
-    height: 31vh;
+    height: 15vh;
   } 
 
   .content__card-desktop {
     display:block;
     width: 11vw;
-    height: 31vh;
+    height: 15vh;
   } 
 }
