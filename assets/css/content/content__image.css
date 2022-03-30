@@ -5,26 +5,39 @@
 
 .content__image--contrast {
   filter:brightness(80%);
-  z-index: 0;
 }
 
 
 @media screen and (min-width:280px) and (max-width:349px) {
-  
   .content__image {
-    min-height: 110px;
+    width: 35vw;
+    height: 100%;
   }
-
 }
 
 @media screen and (min-width:350px) and (max-width:767px) {
-  
-
-
+  .content__image {
+    width: 40vw;
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
-
- 
-
+  .content__image {
+    width: 20vw;
+  }
 }
+
+@media screen and (min-width:1440px) and (max-width:1902px) {
+  .content__image {
+    width: 11vw;
+    height: 20vh;
+  } 
+}
+
+@media screen and (min-width:1903px) {
+  .content__image {
+    width: 11vw;
+    height: 20vh;
+  } 
+}
+

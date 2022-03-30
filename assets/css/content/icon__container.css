@@ -1,3 +1,5 @@
 .icon__container {
-  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
 }

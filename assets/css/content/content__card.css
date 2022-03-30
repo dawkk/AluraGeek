@@ -1,54 +1,21 @@
-.content__card {
-  width: 40vw;
-} 
+
 
 .content__card-desktop {
   display:none;
-  width: 40vw;
 } 
 
-
-@media screen and (min-width:280px) and (max-width:349px) {
-  .content__card {
-    width: 35vw;
-    height: 100%;
-  } 
-}
-
-@media screen and (min-width:350px) and (max-width:767px) {
-  .content__card {
-    width: 40vw;
-  } 
-}
-
-@media screen and (min-width:768px) and (max-width:1439px) {
-  .content__card {
-    width: 20vw;
-  } 
-}
-
 @media screen and (min-width:1440px) and (max-width:1902px) {
-  .content__card {
-    width: 11vw;
-    height: 20vh;
-  } 
-
   .content__card-desktop {
     display:block;
-    width: 11vw;
-    height: 20vh;
   } 
 }
 
 @media screen and (min-width:1903px) {
-  .content__card {
-    width: 11vw;
-    height: 30vh;
-  } 
-
   .content__card-desktop {
     display:block;
-    width: 11vw;
-    height: 30vh;
   } 
+
+  .content__card {
+    width: 11vw;
+  }
 }
