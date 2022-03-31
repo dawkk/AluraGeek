@@ -51,7 +51,7 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 Semana 1
 - [x] Elementos Principais do Site HTML
 - [x] Adicionar Logo da Empresa
-- [ ] Criar Barra de Pesquisa
+- [x] Criar Barra de Pesquisa
 - [x] Adicionar Botão Iniciar Sessão
 - [x] Adicionar Banner
 - [x] Criar Galeria de produtos - Seção Star Wars
@@ -61,13 +61,16 @@ Semana 1
 - [x] Adicionar Fale Conosco - Rodapé
 - [x] Adicionar Desenvolvedor - Rodapé
 
+Semana 2
+- [x] Formulario de Login
+- [x] Pagina todos os produtos Desktop (falta adaptar Mobile e Tablet)
+- [ ] Pagina de descrição do produto
+- [ ] Criar seção produtos similares
+- [ ] Criar seção - Adicionar Novo Produto
+- [ ] Pagina administrador com opção de adicionar produtos novos ao catalogo
 
 Pontos a revisitar/Corrigir:
 - [ ] Linear-Gradient Banner imagem
 
 Pontos a adiantar:
-- [ ] Pagina de login/iniciar sessão
-- [ ] Pagina de detalhes do produto ao clicar ver produto e sessão de produtos similares
-- [ ] Pagina todos os produtos
-- [ ] Pagina administrador com opção de adicionar produtos novos ao catalogo
-- [ ] Opção para administrador remover ou alterar itens já adicionados (todos os produtos)
+

@@ -5,10 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AluraGeek</title>
-
+  <script src="https://kit.fontawesome.com/f7f0baf5d6.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
-  <script src="https://kit.fontawesome.com/f7f0baf5d6.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
@@ -21,7 +20,7 @@
             <li class="logo__text logo__text--color-blue">Alura</li>
             <li class="logo__text logo__text--color-black">Geek</li>
         </div>
-        <button class="login__button">Login</button>
+        <button class="login__button login__button--extra-padding">Login</button>
         <i class="fa-solid fa-magnifying-glass search__mobile"></i>
         
         <div class="search__background">
@@ -33,18 +32,6 @@
 
   <main class="container">
 
-    <!-- BANNER SECTION -->
-
-    <section>
-          <div class="banner__image">
-            <div class="banner__padding">
-              <h1 class="banner__title banner__title-main">Dezembro Promocional</h1>
-              <h4 class="banner__title banner__title-subtitle">Produtos selecionados com 33% de desconto</h4>
-              <button class="banner__button">Ver Consoles</button>
-              </div>
-          </div>
-    </section>
-
     <!-- CONTENT SECTION -->
 
     <section class="content">
@@ -52,174 +39,243 @@
       <!-- STAR WARS CONTENT -->
 
       <div class="content__header">
-        <h3 class="content__title">Star Wars</h3>
-        <button class="content__button content__more">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
+        <h3 class="content__title">Todos os produtos</h3>
+        <button class="content__add">Adicionar Produto</button>
       </div>
 
       <div class="content__body">
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/stormtrooperMug.png" alt="Caneca para café de stormtrooper">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Caneca Stormtrooper</li>
+            <li class="content__item">Caneca Stormtrooper</li>
             <li class="content__price">R$ 60,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
-          <img class="content__image" src="./assets/img/starWars/vaderTiefighterLego.png" alt="Lego Star Wars Cabeça Darth Vader e Cabeça Tie Fighter">
+          <img class="content__image content__image--contrast" src="./assets/img/starWars/vaderTiefighterLego.png" alt="Lego Star Wars Cabeça Darth Vader e Cabeça Tie Fighter">
           <ul class="content__list">
-            <li class="content__item">Lego Darth Vader & Tie Fighter</li>
+            <li class="content__item">Lego Vader & Tie Fighter</li>
             <li class="content__price">R$ 150,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/yodaToy.png" alt="Estatua de plastico Yoda">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Action Figure Yoda</li>
+            <li class="content__item">Action Figure Yoda</li>
             <li class="content__price">R$ 110,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/starWars/captainTrooper.png" alt="Poster Capitão Trooper">
           <ul class="content__list">
             <li class="content__item">Poster Capitão Stormtrooper</li>
             <li class="content__price">R$ 65,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card content__card-desktop">
           <img class="content__image" src="./assets/img/starWars/groguToy.png" alt="Action Figure Grogu">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Action Figure Grogu</li>
+            <li class="content__item">Action Figure Grogu</li>
             <li class="content__price">R$ 88,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card content__card-desktop">
           <img class="content__image" src="./assets/img/starWars/kyloRen.png" alt="Poster Capitão Trooper">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Action Figure Kylo Ren</li>
+            <li class="content__item">Action Figure Kylo Ren</li>
             <li class="content__price">R$ 100,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
       </div>
 
        <!-- CONSOLE CONTENT -->
 
        <div class="content__header">
-        <h3 class="content__title">Consoles</h3>
-        <button class="content__button content__more">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
       </div>
 
       <div class="content__body">
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/controle.png" alt="Controle gamepad xbox one">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Controle Xbox</li>
+            <li class="content__item">Controle Xbox</li>
             <li class="content__price">R$ 60,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/consoleControle.png" alt="Console Playstation 5 e controle cor azul emcima de uma mesa">
           <ul class="content__list">
             <li class="content__item">Playstation 5 edição limitada</li>
             <li class="content__price">R$ 4000,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/superNintendo.png" alt="Console Super Nintendo">
           <ul class="content__list">
-            <li class="content__item">Console Super Nintendo Retro</li>
+            <li class="content__item">Console Super Nintendo</li>
             <li class="content__price">R$ 500,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/console/controleNintendoSwitch.png" alt="Kit Dois controles Joystick Nintendo Switch">
           <ul class="content__list">
-            <li class="content__item">Controles Joystick Nintendo Switch</li>
+            <li class="content__item">Joystick Nintendo Switch</li>
             <li class="content__price">R$ 365,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card content__card-desktop">
           <img class="content__image" src="./assets/img/console/consoleXbox.png" alt="Console Xbox videogame">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Console Xbox</li>
+            <li class="content__item">Console Xbox</li>
             <li class="content__price">R$ 500,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card content__card-desktop">
-          <img class="content__image" src="./assets/img/console/gameBoyColor.png" alt="Game Boy Color">
+          <img class="content__image content__image--contrast" src="./assets/img/console/gameBoyColor.png" alt="Game Boy Color">
           <ul class="content__list">
             <li class="content__item">GameBoy Color com 3 jogos</li>
             <li class="content__price">R$ 300,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
       </div>
 
       <!-- DIVERSOS CONTENT -->
 
       <div class="content__header">
-        <h3 class="content__title">Diversos</h3>
-        <button class="content__button content__more">Ver Tudo  <i class="fa-solid fa-arrow-right-long"></i></button>
+
       </div>
 
       <div class="content__body">
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/camisaAtari.png" alt="Camisa de logotipo videogame Atari">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Camisa Atari</li>
+            <li class="content__item">Camisa Atari</li>
             <li class="content__price">R$ 60,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/camisaSNES.png" alt="Camisa de controle SNES">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Camisa SNES</li>
+            <li class="content__item">Camisa SNES</li>
             <li class="content__price">R$ 65,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/actionFigureSonic.png" alt="Estatua action figure de SONIC">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Action Figure SONIC</li>
+            <li class="content__item">Action Figure SONIC</li>
             <li class="content__price">R$ 100,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card">
           <img class="content__image" src="./assets/img/diversos/radioDespertadorRetro.png" alt="Radio relógio estilo retro cor rosa">
           <ul class="content__list">
-            <li class="content__item">Radio Relógio rosa estilo retro</li>
+            <li class="content__item">Radio Relógio rosa retro</li>
             <li class="content__price">R$ 160,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card content__card-desktop">
           <img class="content__image" src="./assets/img/diversos/VR.png" alt="Oculos de Realidade Virtual">
           <ul class="content__list">
             <li class="content__item">Oculos de Realidade Virtual</li>
             <li class="content__price">R$ 1500,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
         <div class="content__card content__card-desktop">
           <img class="content__image" src="./assets/img/diversos/fantasiaPikachu.png" alt="Fantasia Pikachu">
           <ul class="content__list">
-            <li class="content__item content__item--additional-padding">Fantasia Pikachu</li>
+            <li class="content__item">Fantasia Pikachu</li>
             <li class="content__price">R$ 300,00</li>
-            <li><a href="#" class="content__button">Ver Produto</a></li>
+            <li class="content__id">#1111111</li>
           </ul>
+           <div class="icon__container">
+            <i class="fa-solid fa-trash-can icon__delete"></i>
+            <i class="fa-solid fa-pencil icon__edit"></i>
+          </div>
         </div>
       </div>
     </section>
@@ -282,6 +338,5 @@
     <div class="author">Desenvolvido por Gabriel Marconato Venturini 2022
     </div>
   </footer>
-
 </body>
 </html>
