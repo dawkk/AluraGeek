@@ -14,6 +14,9 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
+  .content__body {
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (min-width:1440px) {
