@@ -1,0 +1,36 @@
+.product__padding {
+  padding: 2.5% 24%;
+}
+
+.product__background {
+  background-color: #E5E5E5;
+}
+
+.drag__background {
+  background-color: #FFFFFF;
+  border: 4px #C8C8C8 dashed;
+  width: 282px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag__text {
+  color: #6B6B6B;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.drag__icon {
+  color: #C8C8C8;
+  padding-top: 1rem;
+}
+
+.product__files {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}

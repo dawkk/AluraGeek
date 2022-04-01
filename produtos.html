@@ -10,97 +10,101 @@
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <script src="https://kit.fontawesome.com/f7f0baf5d6.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/product/product.css">
+  
 
 </head>
 <body>
-  <header>
-    <!-- MENU HEADER -->
-      <div class="header__container">
-        <div class="logo__container">
-            <img class="logo__image" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
-            <li class="logo__text logo__text--color-blue">Alura</li>
-            <li class="logo__text logo__text--color-black">Geek</li>
+  <div class="container">
+    <header>
+      <!-- MENU HEADER -->
+        <div class="header__container">
+          <div class="logo__container">
+              <img class="logo__image" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
+              <li class="logo__text logo__text--color-blue">Alura</li>
+              <li class="logo__text logo__text--color-black">Geek</li>
+          </div>
+          <button class="login__button">Login</button>
+          <i class="fa-solid fa-magnifying-glass search__mobile"></i>
+          
+          <div class="search__background">
+            <input class="search__bar" type="text" placeholder="O que deseja encontrar?">
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+          </div>
         </div>
-        <button class="login__button">Login</button>
-        <i class="fa-solid fa-magnifying-glass search__mobile"></i>
-        
-        <div class="search__background">
-          <input class="search__bar" type="text" placeholder="O que deseja encontrar?">
-          <i class="fa-solid fa-magnifying-glass search__icon"></i>
-        </div>
-      </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <div>
-    <h1>Adicionar novo produto</h1>
-      <div>
-        <div>
-          <i>icone ou imagem</i>
-          <p>Arraste para adicionar uma imagem para o produto</p>
+    <main>
+      <div class="product__padding product__background">
+      <h1>Adicionar novo produto</h1>
+        <div class="product__files">
+          <div class="drag__background">
+            <i class="fa-solid fa-image fa-2xl drag__icon"></i>
+            <p class="drag__text">Arraste para adicionar uma imagem para o produto</p>
+          </div>
+          <p>Ou</p>
+          <button>Procure no seu computador</button>
         </div>
-        <p>Ou</p>
-        <button>Procure no seu computador</button>
-      </div>
-      <div class="name__container">
-        <label for="contactName" class="name__label">Nome do produto</label>
-        <input class="name__form" type="text" name="contact__name" id="contactName">
-        <hr class="contact__line">
-      </div>
-      <div class="name__container">
-        <label for="contactName" class="name__label">Preço do produto</label>
-        <input class="name__form" type="text" name="contact__name" id="contactName">
-        <hr class="contact__line">
-      </div>
-      <div class="name__container">
-        <label for="contactName" class="name__label">Descrição do produto</label>
-        <input class="name__form" type="text" name="contact__name" id="contactName">
-        <hr class="contact__line">
-      </div>
-      <button class="contact__button">Enviar mensagem</button>
-    </div>
-
-  </main>  
-    <!-- FOOTER -->
-
-  <footer>
-    <div class="footer__container">
-      <div class="footer__nav">
-        <div class="logo__container logo__container--padding-footer">
-          <img class="logo__image logo__image--size-big" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
-          <li class="logo__text logo__text--color-blue logo__text--font-big">Alura</li>
-          <li class="logo__text logo__text--color-black logo__text--font-big">Geek</li>
-        </div>
-        <div class="nav__container">
-          <ul>
-            <li class="nav__item"><a class="nav__link" href="#">Quem Somos Nós</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Política de Privacidade</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Programa Fidelidade</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Nossas Lojas</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Quero Ser Franqueado</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Anuncie Aqui</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__contact">
-        <h4 class="contact__title">Fale Conosco</h4>
         <div class="name__container">
-          <label for="contactName" class="name__label">Nome</label>
+          <label for="contactName" class="name__label">Nome do produto</label>
           <input class="name__form" type="text" name="contact__name" id="contactName">
           <hr class="contact__line">
         </div>
-        <div class="message__container"> 
-        <input class="message__form" type="text" name="contact__message" placeholder="Escreva sua mensagem">
-        <hr class="contact__line">
+        <div class="name__container">
+          <label for="contactName" class="name__label">Preço do produto</label>
+          <input class="name__form" type="text" name="contact__name" id="contactName">
+          <hr class="contact__line">
+        </div>
+        <div class="name__container">
+          <label for="contactName" class="name__label">Descrição do produto</label>
+          <input class="name__form" type="text" name="contact__name" id="contactName">
+          <hr class="contact__line">
         </div>
         <button class="contact__button">Enviar mensagem</button>
       </div>
-    </div>
 
-    <!-- AUTHOR -->
-    
-    <div class="author">Desenvolvido por Gabriel Marconato Venturini 2022
-    </div>
-  </footer>
+    </main>  
+      <!-- FOOTER -->
+
+    <footer>
+      <div class="footer__container">
+        <div class="footer__nav">
+          <div class="logo__container logo__container--padding-footer">
+            <img class="logo__image logo__image--size-big" src="./assets/icons/logoController.svg" alt="Logotipo AluraGeek">
+            <li class="logo__text logo__text--color-blue logo__text--font-big">Alura</li>
+            <li class="logo__text logo__text--color-black logo__text--font-big">Geek</li>
+          </div>
+          <div class="nav__container">
+            <ul>
+              <li class="nav__item"><a class="nav__link" href="#">Quem Somos Nós</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Política de Privacidade</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Programa Fidelidade</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Nossas Lojas</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Quero Ser Franqueado</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Anuncie Aqui</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__contact">
+          <h4 class="contact__title">Fale Conosco</h4>
+          <div class="name__container">
+            <label for="contactName" class="name__label">Nome</label>
+            <input class="name__form" type="text" name="contact__name" id="contactName">
+            <hr class="contact__line">
+          </div>
+          <div class="message__container"> 
+          <input class="message__form" type="text" name="contact__message" placeholder="Escreva sua mensagem">
+          <hr class="contact__line">
+          </div>
+          <button class="contact__button">Enviar mensagem</button>
+        </div>
+      </div>
+
+      <!-- AUTHOR -->
+      
+      <div class="author">Desenvolvido por Gabriel Marconato Venturini 2022
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
