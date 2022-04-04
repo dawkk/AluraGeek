@@ -1,0 +1,8 @@
+.product__form {
+  background-color: #FFFFFFFF;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border-bottom: #464646;
+  margin-bottom: 1.5rem;
+}

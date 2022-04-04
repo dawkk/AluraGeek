@@ -1,0 +1,69 @@
+@import url(base.css);
+
+@import url(header/header__container.css);
+@import url(header/logo__container.css);
+@import url(header/logo__image.css);
+@import url(header/logo__text.css);
+@import url(header/login__button.css);
+@import url(header/search__background.css);
+@import url(header/search__bar.css);
+@import url(header/search__icon.css);
+@import url(header/search__mobile.css);
+
+
+/* content - but on product page */
+
+@import url(footer/footer__container.css);
+@import url(footer/footer__contact.css);
+@import url(footer/footer__nav.css);
+@import url(footer/nav__container.css);
+@import url(footer/nav__item.css);
+@import url(footer/nav__link.css);
+@import url(footer/contact__button.css); 
+@import url(footer/contact__title.css); 
+@import url(footer/contact__line.css); 
+@import url(footer/name__container.css);
+@import url(footer/name__form.css);
+@import url(footer/name__label.css);
+@import url(footer/message__container.css);
+@import url(footer/message__form.css);
+@import url(footer/author.css);
+
+
+@import url(credentials/credentials.css);
+@import url(credentials/credentials__container.css);
+@import url(credentials/credentials__title.css);
+@import url(credentials/crendentials__form.css);
+@import url(credentials/credentials__line.css);
+@import url(credentials/credentials__button.css);
+
+
+@import url(product/product__background.css);
+@import url(product/product__button.css);
+@import url(product/product__files.css);
+@import url(product/product__form.css);
+@import url(product/product__input.css);
+@import url(product/product__label.css);
+@import url(product/product__line.css);
+@import url(product/product__padding.css);
+@import url(product/product__select.css);
+@import url(product/drag__background.css);
+@import url(product/drag__icon.css);
+@import url(product/drag__text.css);
+
+
+
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+
+}
+
+@media screen and (min-width:1440px) {
+
+}

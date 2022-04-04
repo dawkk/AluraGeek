@@ -1,0 +1,11 @@
+.product__input {
+  border: none;
+  box-sizing: border-box;
+  height: 2rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.product__input--size-big {
+  height: 6rem;
+}

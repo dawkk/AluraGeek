@@ -30,8 +30,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 3% 12%;
-    margin-top: 5%;
     background-color: aquamarine;
+  }
+
+  .footer__container--margin {
+    margin-top: 5%;
   }
 
 }

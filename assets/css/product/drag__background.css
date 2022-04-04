@@ -1,0 +1,11 @@
+.drag__background {
+  background-color: #FFFFFF;
+  border: 4px #C8C8C8 dashed;
+  width: 21.5rem;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}

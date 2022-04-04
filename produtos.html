@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <script src="https://kit.fontawesome.com/f7f0baf5d6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/product/product.css">
+  <link rel="stylesheet" href="./assets/css/product.css">
   
 
 </head>
@@ -43,24 +42,24 @@
             <p class="drag__text">Arraste para adicionar uma imagem para o produto</p>
           </div>
           <p>Ou</p>
-          <button>Procure no seu computador</button>
+          <button class="product__select">Procure no seu computador</button>
         </div>
-        <div class="name__container">
-          <label for="contactName" class="name__label">Nome do produto</label>
-          <input class="name__form" type="text" name="contact__name" id="contactName">
-          <hr class="contact__line">
+        <div class="product__form">
+          <label for="productName" class="product__label">Nome do produto</label>
+          <input class="product__input" type="text" name="product__name" id="productName">
+          <hr class="product__line">
         </div>
-        <div class="name__container">
-          <label for="contactName" class="name__label">Preço do produto</label>
-          <input class="name__form" type="text" name="contact__name" id="contactName">
-          <hr class="contact__line">
+        <div class="product__form">
+          <label for="productPrice" class="product__label">Preço do produto</label>
+          <input class="product__input" type="text" name="product__price" id="productPrice">
+          <hr class="product__line">
         </div>
-        <div class="name__container">
-          <label for="contactName" class="name__label">Descrição do produto</label>
-          <input class="name__form" type="text" name="contact__name" id="contactName">
-          <hr class="contact__line">
+        <div class="product__form">
+          <label for="productDescription" class="product__label">Descrição do produto</label>
+          <input class="product__input product__input--size-big" type="text" name="product__description" id="productDescription">
+          <hr class="product__line">
         </div>
-        <button class="contact__button">Enviar mensagem</button>
+        <button class="product__button">Enviar mensagem</button>
       </div>
 
     </main>  

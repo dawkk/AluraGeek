@@ -1,0 +1,11 @@
+.product__select {
+  width: 24rem;
+  height: 3.20rem;
+  color:#2A7AE4;
+  border: 3px solid #2A7AE4;
+  padding:1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
