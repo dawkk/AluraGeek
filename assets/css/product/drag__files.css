@@ -1,0 +1,12 @@
+.drag__files {
+  color: #6B6B6B;
+  text-align: center;
+  padding-top: 1rem;
+  display: flex;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+ 
+
+}

@@ -9,3 +9,11 @@
   align-items: center;
   margin-left: 1rem;
 }
+
+@media screen and (min-width:280px) and (max-width:767px) {
+
+  .product__select{
+    display: none;
+  }
+
+}

@@ -9,3 +9,11 @@
   align-items: center;
   margin-right: 1rem;
 }
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+  .drag__background {
+    margin: 0;
+  }
+
+}

@@ -3,3 +3,7 @@
   align-items: center;
   padding-bottom: 2rem;
 }
+
+.product__files--inactive {
+  display: none;
+}
