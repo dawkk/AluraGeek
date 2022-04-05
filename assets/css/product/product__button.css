@@ -2,9 +2,27 @@
   background-color:#2A7AE4;
   color: #FFFFFFFF;
   border: none;
-  width: 100%;
+  width: 80%;
   height:4rem;
   font-size: 1rem;
   font: bold;
   font-weight: 600;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  .product__button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .product__button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .product__button {
+    max-width: 49.2rem;
+  }
 }

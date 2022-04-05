@@ -1,0 +1,27 @@
+
+.select__text2 {
+  display: none;
+  }
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .select__text {
+    display: none;
+  }
+
+  .select__text2 {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width:1440px) {
+
+  .select__text {
+    display: block;
+  }
+
+  .select__text2 {
+  display: none;
+  }
+
+}

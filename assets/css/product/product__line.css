@@ -1,5 +1,25 @@
 .product__line {
   color:  #C8C8C8;
-  width: 100%;
+  width: 80%;
   margin: 0;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  .product__line {
+    color:  #C8C8C8;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .product__line {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .product__line {
+    max-width: 49.2rem;
+  }
 }

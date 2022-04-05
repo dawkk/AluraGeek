@@ -7,3 +7,24 @@
 .product__files--inactive {
   display: none;
 }
+
+.product__files--background {
+  background-color: #FFFFFF;
+  border: 4px #C8C8C8 dashed;
+  width: 21.5rem;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+  .product__files--background {
+    margin: 0;
+    width: 100%;
+  }
+
+}

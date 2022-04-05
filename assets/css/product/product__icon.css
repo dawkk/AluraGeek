@@ -1,0 +1,35 @@
+.product__icon--image {
+  color: #C8C8C8;
+  padding-top: 4rem;
+  display: none;
+}
+
+.product__icon--plus {
+  color: #C8C8C8;
+  padding-top: 4rem;
+  display: block;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  .product__icon--image {
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .product__icon--plus {
+    display: none;
+  }
+  .product__icon--image {
+    display: block;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .product__icon--plus {
+    display: none;
+  }
+  .product__icon--image {
+    display: block;
+  }
+}

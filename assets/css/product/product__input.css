@@ -3,9 +3,28 @@
   box-sizing: border-box;
   height: 2rem;
   padding: 0 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 .product__input--size-big {
   height: 6rem;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+  .product__input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+  .product__input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .product__input {
+    max-width: 49.2rem;
+  }
 }

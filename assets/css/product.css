@@ -51,8 +51,10 @@
 @import url(product/drag__icon.css);
 @import url(product/drag__text.css);
 @import url(product/drag__files.css);
-
-
+@import url(product/select__text.css);
+@import url(product/product__icon.css);
+@import url(product/product__text.css);
+@import url(product/product__add.css);
 
 
 @media screen and (min-width:280px) and (max-width:767px) {

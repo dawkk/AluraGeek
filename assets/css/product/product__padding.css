@@ -1,3 +1,27 @@
 .product__padding {
   padding: 2.5% 24%;
 }
+
+@media screen and (min-width:280px) and (max-width:767px) {
+  
+  .product__padding {
+    padding: 2rem 1.5rem;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+
+  .product__padding {
+    padding: 2rem;
+  }
+
+}
+
+@media screen and (min-width:1440px) {
+
+  .product__padding {
+    padding: 2.5% 0 4% 31.6%;
+  }
+  
+}

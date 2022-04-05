@@ -23,7 +23,7 @@
               <li class="logo__text logo__text--color-blue">Alura</li>
               <li class="logo__text logo__text--color-black">Geek</li>
           </div>
-          <button class="login__button">Login</button>
+          <button class="login__button">Menu Administrador</button>
           <i class="fa-solid fa-magnifying-glass search__mobile"></i>
           
           <div class="search__background">
@@ -37,13 +37,21 @@
       <div class="product__padding product__background">
       <h1>Adicionar novo produto</h1>
         <div class="product__files">
-          <div class="drag__background">
-            <i class="fa-solid fa-image fa-2xl drag__icon"></i>
-            <i class="fa-solid fa-plus"></i>
-            <p class="drag__files">Arraste para adicionar uma imagem para o produto</p>
+          <div class="product__files--background">
+            <div class="product__add">
+              <i class="fa-solid fa-image fa-2xl product__icon--image"></i>
+              <p class="product__text">Arraste para adicionar uma imagem para o produto</p>
+            </div>
+            <div class="product__add--mobile">
+              <i class="fa-solid fa-plus fa-2xl product__icon--plus"></i>
+              <p class="product__text">Adicionar uma imagem para o produto</p>
+            </div>
           </div>
-          <p class="drag__text">Ou</p>
-          <button class="product__select">Procure no seu computador</button>
+          <p class="product__text2">Ou</p>
+          <button class="product__select">
+            <p class="product__text3--computador">Procure no seu computador</p>
+            <p class="product__text3--tablet">Procure no seu tablet</p>
+          </button>
         </div>
         <div class="product__form">
           <label for="productName" class="product__label">Nome do produto</label>
