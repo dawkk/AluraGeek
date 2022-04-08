@@ -32,5 +32,13 @@
 @media screen and (min-width:1440px) {
   .details__container {
     flex-direction:row;
+    padding: 0 13%;
+  }
+
+  .details__subcontainer {
+    padding: 0 0 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
