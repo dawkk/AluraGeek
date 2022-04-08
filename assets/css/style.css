@@ -10,6 +10,7 @@
 @import url(banner/banner__padding.css);
 @import url(banner/banner__title.css);
 @import url(banner/banner__button.css);
+@import url(banner/banner__link.css);
 
 @import url(content/content.css);
 @import url(content/content__header.css);
