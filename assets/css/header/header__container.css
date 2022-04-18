@@ -1,8 +1,7 @@
 .header__container {
   display: grid;
-  grid-template-columns: [start] 1fr [gap1] 0.5fr [middle] 1fr [gap2] 0.5fr [end] 1fr;
+  grid-template-columns: [start] 1.2fr [gap1] 0.5fr [middle] 1fr [gap2] 0.5fr [end] 1fr;
   gap: 0.5rem;
-  padding: 1rem;
 
 }
 
@@ -20,9 +19,9 @@
 
   .header__container {
     display: grid;
-    grid-template-columns: [gap1] 1fr [start] 1fr [middle] 2fr [gap2] 2fr [end] 1fr [gap3] 1fr;
+    grid-template-columns: [gap1] 0.8fr [start] 1fr [middle] 2fr [gap2] 2fr [end] 1fr [gap3] 1fr;
     gap: 0.5rem;
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
 }

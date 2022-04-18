@@ -1,7 +1,7 @@
 .content__header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 1rem 0;
 }
 
 @media screen and (min-width:280px) and (max-width:349px) {
@@ -12,12 +12,12 @@
 
 @media screen and (min-width:768px) and (max-width:1439px) {
   .content__header {
-    padding: 2rem 1rem;
+    padding: 2rem 0;
   }
 }
 
 @media screen and (min-width:1440px) {
   .content__header {
-    padding: 1rem 12%;
+    padding: 1rem 0;
   }
 }

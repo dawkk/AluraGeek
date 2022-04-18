@@ -21,7 +21,7 @@ Este projeto foi proposto pela Alura durante outra edição do [Desafio Alura Fr
 
 ## Tecnologias Utilizadas(WIP):
 
-- CSS (Grid, Flexbox, Media Queries, Mobile First)
+- CSS (Grid, Flexbox, Media Queries, Mobile First, BEM)
 
 ## Sobre o Desafio Alura Front-End:
 
@@ -46,6 +46,8 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 ## O que aprendi neste desafio(WIP):
 
+ - Aprendendo Sobre Javascript CRUD assincrono para criar as funcionalidades propostas
+
 ## Próximas implementações:
 
 Semana 1
@@ -64,13 +66,24 @@ Semana 1
 Semana 2
 - [x] Formulario de Login
 - [x] Pagina todos os produtos Desktop (falta adaptar Mobile e Tablet)
-- [ ] Pagina de descrição do produto
-- [ ] Criar seção produtos similares
-- [ ] Criar seção - Adicionar Novo Produto
-- [ ] Pagina administrador com opção de adicionar produtos novos ao catalogo
+- [x] Pagina de descrição do produto
+- [x] Criar seção produtos similares
+- [x] Criar seção - Adicionar Novo Produto
+- [x] Pagina administrador com opção de adicionar produtos novos ao catalogo
 
 Pontos a revisitar/Corrigir:
 - [ ] Linear-Gradient Banner imagem
 
-Pontos a adiantar:
+Semana 3
+
+- [ ] Adicionar Funcionalidade - Botão Ver consoles
+- [ ] API - Listar Produtos
+- [ ] Adicionar Funcionalidade - Ver Produto
+- [ ] API - Descrição do produto
+- [ ] Adicionar funcionalidade - Barra de Pesquisa
+- [ ] Validação formulário "Fale conosco" - Rodapé
+- [ ] Validação formulário - Iniciar sessão
+- [ ] Validação formulário - Adicionar Novo Produto
+- [ ] Extra - Ver tudo
+
 

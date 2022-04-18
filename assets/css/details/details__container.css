@@ -3,7 +3,7 @@
 }
 
 .details__subcontainer {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .content__list--black {
@@ -20,6 +20,11 @@
 @media screen and (min-width:768px) and (max-width:1439px) {
   .details__container {
     flex-direction:row;
+    padding: 2rem;
+  }
+
+  .details__subcontainer {
+    padding: 0 1rem;
   }
 
 }
@@ -27,5 +32,13 @@
 @media screen and (min-width:1440px) {
   .details__container {
     flex-direction:row;
+    padding: 0 13%;
+  }
+
+  .details__subcontainer {
+    padding: 0 0 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
